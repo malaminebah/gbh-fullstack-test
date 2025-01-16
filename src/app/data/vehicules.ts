@@ -12,7 +12,7 @@ export const vehicules: Vehicle[] = [
         transmission: "Automatique",
         mileage: 0,
         features: ["Autopilot", "Toit panoramique", "Écran 17 pouces"],
-        images: ["/images/tesla-model-s-1.jpg"],
+        images: ["/images/car.jpg"],
         description: "Tesla Model S Plaid, la berline électrique la plus rapide au monde",
         createdAt: new Date("2024-01-01"),
         updatedAt: new Date("2024-01-01")
@@ -28,7 +28,7 @@ export const vehicules: Vehicle[] = [
         transmission: "Automatique",
         mileage: 1500,
         features: ["Sièges chauffants", "BMW iDrive", "Toit ouvrant"],
-        images: ["/images/bmw-x5-1.jpg"],
+        images: ["/images/car.jpg"],
         description: "BMW X5 hybride, alliance parfaite entre puissance et efficacité",
         createdAt: new Date("2024-01-02"),
         updatedAt: new Date("2024-01-02")
@@ -44,7 +44,7 @@ export const vehicules: Vehicle[] = [
         transmission: "PDK",
         mileage: 500,
         features: ["Sport Chrono", "Échappement sport", "Suspension PASM"],
-        images: ["/images/porsche-911-1.jpg"],
+        images: ["/images/car.jpg"],
         description: "Porsche 911 Carrera S, l'icône du sport automobile",
         createdAt: new Date("2024-01-03"),
         updatedAt: new Date("2024-01-03")
@@ -60,7 +60,7 @@ export const vehicules: Vehicle[] = [
         transmission: "Automatique 9G-TRONIC",
         mileage: 0,
         features: ["Massage sièges", "MBUX", "Burmester 4D"],
-        images: ["/images/mercedes-s-1.jpg"],
+        images: ["/images/car.jpg"],
         description: "Mercedes-Benz Classe S, le summum du luxe automobile",
         createdAt: new Date("2024-01-04"),
         updatedAt: new Date("2024-01-04")
@@ -76,7 +76,7 @@ export const vehicules: Vehicle[] = [
         transmission: "Automatique",
         mileage: 1000,
         features: ["Pro Power Onboard", "Sync 4", "Zone de chargement éclairée"],
-        images: ["/images/ford-f150-1.jpg"],
+        images: ["/images/car.jpg"],
         description: "Ford F-150, le pickup le plus vendu en Amérique du Nord",
         createdAt: new Date("2024-01-05"),
         updatedAt: new Date("2024-01-05")
@@ -92,7 +92,7 @@ export const vehicules: Vehicle[] = [
         transmission: "Automatique",
         mileage: 0,
         features: ["Quattro", "Matrix LED", "Charge rapide"],
-        images: ["/images/audi-etron-gt-1.jpg"],
+        images: ["/images/car.jpg"],
         description: "Audi e-tron GT, performance électrique de pointe",
         createdAt: new Date("2024-01-06"),
         updatedAt: new Date("2024-01-06")
@@ -108,7 +108,7 @@ export const vehicules: Vehicle[] = [
         transmission: "CVT",
         mileage: 0,
         features: ["Toyota Safety Sense", "Apple CarPlay", "Android Auto"],
-        images: ["/images/toyota-camry-1.jpg"],
+        images: ["/images/car.jpg"],
         description: "Toyota Camry Hybrid, fiabilité et économie",
         createdAt: new Date("2024-01-07"),
         updatedAt: new Date("2024-01-07")
@@ -124,7 +124,7 @@ export const vehicules: Vehicle[] = [
         transmission: "Automatique",
         mileage: 500,
         features: ["Mark Levinson Audio", "Head-up Display", "Lexus Safety System+"],
-        images: ["/images/lexus-rx-1.jpg"],
+        images: ["/images/car.jpg"],
         description: "Lexus RX, le SUV de luxe hybride par excellence",
         createdAt: new Date("2024-01-08"),
         updatedAt: new Date("2024-01-08")
@@ -140,7 +140,7 @@ export const vehicules: Vehicle[] = [
         transmission: "Automatique 8 vitesses",
         mileage: 100,
         features: ["Mode Z", "Performance Data Recorder", "Magnetic Ride Control"],
-        images: ["/images/chevrolet-corvette-1.jpg"],
+        images: ["/images/car.jpg"],
         description: "Chevrolet Corvette C8, la supercar américaine",
         createdAt: new Date("2024-01-09"),
         updatedAt: new Date("2024-01-09")
@@ -156,7 +156,7 @@ export const vehicules: Vehicle[] = [
         transmission: "Automatique",
         mileage: 0,
         features: ["Tank Turn", "Gear Tunnel", "Camp Kitchen"],
-        images: ["/images/rivian-r1t-1.jpg"],
+        images: ["/images/car.jpg"],
         description: "Rivian R1T, le pickup électrique d'aventure",
         createdAt: new Date("2024-01-10"),
         updatedAt: new Date("2024-01-10")
@@ -172,7 +172,7 @@ export const vehicules: Vehicle[] = [
         transmission: "Automatique",
         mileage: 1000,
         features: ["Bowers & Wilkins", "City Safety", "Pilot Assist"],
-        images: ["/images/volvo-xc90-1.jpg"],
+        images: ["/images/car.jpg"],
         description: "Volvo XC90 Recharge, sécurité et luxe scandinave",
         createdAt: new Date("2024-01-11"),
         updatedAt: new Date("2024-01-11")
@@ -188,7 +188,7 @@ export const vehicules: Vehicle[] = [
         transmission: "Automatique",
         mileage: 0,
         features: ["DreamDrive Pro", "Glass Canopy", "Micro Lens Array"],
-        images: ["/images/lucid-air-1.jpg"],
+        images: ["/images/car.jpg"],
         description: "Lucid Air, redéfinition du luxe électrique",
         createdAt: new Date("2024-01-12"),
         updatedAt: new Date("2024-01-12")
@@ -204,7 +204,7 @@ export const vehicules: Vehicle[] = [
         transmission: "Automatique",
         mileage: 500,
         features: ["V2L", "Charge ultra-rapide", "Relaxation Seats"],
-        images: ["/images/hyundai-ioniq5-1.jpg"],
+        images: ["/images/car.jpg"],
         description: "Hyundai IONIQ 5, design rétro-futuriste électrique",
         createdAt: new Date("2024-01-13"),
         updatedAt: new Date("2024-01-13")
@@ -220,7 +220,7 @@ export const vehicules: Vehicle[] = [
         transmission: "Automatique",
         mileage: 0,
         features: ["Terrain Response 2", "Meridian Signature", "Active Noise Cancellation"],
-        images: ["/images/range-rover-sport-1.jpg"],
+        images: ["/images/car.jpg"],
         description: "Range Rover Sport, luxe tout-terrain",
         createdAt: new Date("2024-01-14"),
         updatedAt: new Date("2024-01-14")
@@ -236,7 +236,7 @@ export const vehicules: Vehicle[] = [
         transmission: "Automatique 8 vitesses",
         mileage: 100,
         features: ["Sonus faber Audio", "MIA", "Skyhook"],
-        images: ["/images/maserati-grecale-1.jpg"],
+        images: ["/images/car.jpg"],
         description: "Maserati Grecale, l'élégance italienne en SUV",
         createdAt: new Date("2024-01-15"),
         updatedAt: new Date("2024-01-15")
@@ -252,7 +252,7 @@ export const vehicules: Vehicle[] = [
         transmission: "Automatique",
         mileage: 0,
         features: ["AR Head-up Display", "Vehicle-to-Load", "Remote Smart Parking"],
-        images: ["/images/kia-ev6-1.jpg"],
+        images: ["/images/car.jpg"],
         description: "Kia EV6, crossover électrique nouvelle génération",
         createdAt: new Date("2024-01-16"),
         updatedAt: new Date("2024-01-16")
@@ -268,7 +268,7 @@ export const vehicules: Vehicle[] = [
         transmission: "Automatique 8 vitesses",
         mileage: 500,
         features: ["Lexicon Audio", "Highway Driving Assist II", "3D Digital Cluster"],
-        images: ["/images/genesis-g80-1.jpg"],
+        images: ["/images/car.jpg"],
         description: "Genesis G80, luxe coréen sophistiqué",
         createdAt: new Date("2024-01-17"),
         updatedAt: new Date("2024-01-17")
@@ -284,7 +284,7 @@ export const vehicules: Vehicle[] = [
         transmission: "Automatique",
         mileage: 0,
         features: ["Crab Walk", "Extract Mode", "UltraVision"],
-        images: ["/images/gmc-hummer-ev-1.jpg"],
+        images: ["/images/car.jpg"],
         description: "GMC Hummer EV, puissance électrique extrême",
         createdAt: new Date("2024-01-18"),
         updatedAt: new Date("2024-01-18")
@@ -300,7 +300,7 @@ export const vehicules: Vehicle[] = [
         transmission: "Automatique 8 vitesses",
         mileage: 100,
         features: ["DNA Drive Mode", "Active Aero Splitter", "Harman Kardon"],
-        images: ["/images/alfa-romeo-giulia-1.jpg"],
+        images: ["/images/car.jpg"],
         description: "Alfa Romeo Giulia Quadrifoglio, passion sportive italienne",
         createdAt: new Date("2024-01-19"),
         updatedAt: new Date("2024-01-19")
@@ -316,7 +316,7 @@ export const vehicules: Vehicle[] = [
         transmission: "Automatique",
         mileage: 0,
         features: ["Google Built-in", "Pilot Assist", "WeaveTech upholstery"],
-        images: ["/images/polestar-2-1.jpg"],
+        images: ["/images/car.jpg"],
         description: "Polestar 2, design scandinave électrifié",
         createdAt: new Date("2024-01-20"),
         updatedAt: new Date("2024-01-20")
