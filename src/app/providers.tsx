@@ -1,16 +1,14 @@
 'use client';
 
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
-import { VehiculesList } from './components/VehiculesList';
+import { ReactNode } from 'react';
 
 const queryClient = new QueryClient();
 
-export default function Home() {
+export function Providers({ children }: { children: ReactNode }) {
     return (
         <QueryClientProvider client={queryClient}>
-            <main>
-                <VehiculesList />
-            </main>
+            {children}
         </QueryClientProvider>
     );
-}
+} 
