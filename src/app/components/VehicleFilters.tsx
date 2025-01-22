@@ -13,10 +13,10 @@ export function VehicleFilters({ filters, onFilterChange }: VehicleFiltersProps)
   const { data: manufacturers, isLoading: isLoadingManufacturers } = useManufacturers();
 
   return (
-    <div className="mb-6 p-4 bg-white rounded shadow">
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-        <div>
-          <label htmlFor="manufacturer" className="block text-sm font-medium text-gray-700 mb-1">
+    <div className="bg-white rounded-lg shadow p-4 sm:p-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="space-y-1">
+          <label htmlFor="manufacturer" className="block text-sm font-medium text-gray-700">
             Marque
           </label>
           <select
@@ -35,8 +35,8 @@ export function VehicleFilters({ filters, onFilterChange }: VehicleFiltersProps)
           </select>
         </div>
 
-        <div>
-          <label htmlFor="type" className="block text-sm font-medium text-gray-700 mb-1">
+        <div className="space-y-1">
+          <label htmlFor="type" className="block text-sm font-medium text-gray-700">
             Type
           </label>
           <select
@@ -52,8 +52,8 @@ export function VehicleFilters({ filters, onFilterChange }: VehicleFiltersProps)
           </select>
         </div>
 
-        <div>
-          <label htmlFor="fuelType" className="block text-sm font-medium text-gray-700 mb-1">
+        <div className="space-y-1">
+          <label htmlFor="fuelType" className="block text-sm font-medium text-gray-700">
             Carburant
           </label>
           <select

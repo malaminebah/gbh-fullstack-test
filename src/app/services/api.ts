@@ -65,11 +65,26 @@ export const fetchVehicles = async (filters?: FilterOptions): Promise<PaginatedR
     });
   }
 
-  const response = await fetch(`${API_BASE_URL}/vehicles?${params.toString()}`);
-  if (!response.ok) {
-    throw new Error('Failed to fetch vehicles');
+  try {
+    const url = `${API_BASE_URL}/vehicles?${params.toString()}`;
+    console.log('Tentative de connexion à:', url);
+
+    const response = await fetch(url);
+    console.log('Status:', response.status);
+
+    if (!response.ok) {
+      const errorText = await response.text();
+      console.error('Erreur détaillée:', errorText);
+      throw new Error(`Erreur HTTP: ${response.status} ${response.statusText}`);
+    }
+
+    const data = await response.json();
+    console.log('Données reçues:', data);
+    return data;
+  } catch (error) {
+    console.error('Erreur complète:', error);
+    throw error;
   }
-  return response.json();
 };
 
 export const fetchVehicleById = async (id: string): Promise<Vehicle> => {
